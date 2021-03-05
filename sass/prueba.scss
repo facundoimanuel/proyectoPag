@@ -26,6 +26,14 @@ $yellow: #FFED00;
 
 }
 
+header{
+    background-color: $bgColor;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+  }
+
 .carousel-control-prev, .carousel-control-next{
     width: 40px;
     height: 40px;
@@ -73,15 +81,16 @@ main{
       }
 }
 
-.newst{
-    display: grid;
+.style{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 
-    &__img{
-        width: 100%;
-        text-align: center;
-    }
-    
-}
+    &__Img{
+        margin: 70px 0;
+      }
+  }
+
 
 .navbar{
     background-color: black;

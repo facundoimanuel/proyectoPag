@@ -20,6 +20,14 @@ body {
     color: whitesmoke;
   }
 }
+header {
+  background-color: #0c0c0c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+}
+
 .carousel-control-prev, .carousel-control-next {
   width: 40px;
   height: 40px;
@@ -97,12 +105,13 @@ main {
   }
 }
 
-.newst {
-  display: grid;
+.style {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
-.newst__img {
-  width: 100%;
-  text-align: center;
+.style__Img {
+  margin: 70px 0;
 }
 
 .navbar {
