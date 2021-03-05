@@ -6,6 +6,23 @@ body{
     display: grid;
     height: 100vh;
     font-family: 'Noto Serif', serif;
+    font-size: 1rem;
+
+}
+
+$bgColor: rgb(12, 12, 12);
+$yellow: #FFED00;
+
+
+
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: $bgColor;
+    }
+    p{
+        font-size: 12px;
+        color: whitesmoke;
+    }
 
 }
 
@@ -27,7 +44,6 @@ main{
 }
 
 .textoDiv{
-    font-size: 16px;
     font-weight: bolder;
     text-align: center;
 
@@ -40,19 +56,19 @@ main{
       }
       
       @keyframes textoDiv1{
-        0%{background-color: #FFED00;
+        0%{background-color: $yellow;
           color: black;}
       
         25%{background-color: black;
-        color: #FFED00;}
+        color: $yellow;}
       
-        50%{background-color: #FFED00;
+        50%{background-color: $yellow;
           color: black;}
       
         75%{background-color: black;
-          color: #FFED00;}  
+          color: $yellow;}  
       
-        100%{background-color: #FFED00;
+        100%{background-color: $yellow;
             color: black;}
       }
 }
@@ -72,7 +88,7 @@ main{
   
     &__text{
         font-weight: bolder;
-        color: #FFED00;
+        color: $yellow;
     }  
     &__text:hover{
         color: white;
@@ -83,7 +99,6 @@ main{
 
 .footer{
     background-color: black;
-    margin-top: 40px;
 
     &__texto{
         font-size: 12px;
