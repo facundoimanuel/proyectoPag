@@ -1,0 +1,118 @@
+body, html {
+  margin: 0;
+  height: 100vh;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  font-family: "Noto Serif", serif;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.197);
+  top: calc(50% - 35px);
+  margin: 25px;
+}
+
+main {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  text-align: center;
+  margin: 100px;
+}
+
+.textoDiv {
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: center;
+}
+.textoDiv--animation {
+  -webkit-animation-name: textoDiv1;
+          animation-name: textoDiv1;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+          animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+@-webkit-keyframes textoDiv1 {
+  0% {
+    background-color: #FFED00;
+    color: black;
+  }
+  25% {
+    background-color: black;
+    color: #FFED00;
+  }
+  50% {
+    background-color: #FFED00;
+    color: black;
+  }
+  75% {
+    background-color: black;
+    color: #FFED00;
+  }
+  100% {
+    background-color: #FFED00;
+    color: black;
+  }
+}
+@keyframes textoDiv1 {
+  0% {
+    background-color: #FFED00;
+    color: black;
+  }
+  25% {
+    background-color: black;
+    color: #FFED00;
+  }
+  50% {
+    background-color: #FFED00;
+    color: black;
+  }
+  75% {
+    background-color: black;
+    color: #FFED00;
+  }
+  100% {
+    background-color: #FFED00;
+    color: black;
+  }
+}
+
+.newst {
+  display: grid;
+}
+.newst__img {
+  width: 100%;
+  text-align: center;
+}
+
+.navbar {
+  background-color: black;
+}
+.navbar__text {
+  font-weight: bolder;
+  color: #FFED00;
+}
+.navbar__text:hover {
+  color: white;
+}
+
+.footer {
+  background-color: black;
+  margin-top: 40px;
+}
+.footer__texto {
+  font-size: 12px;
+  color: white;
+  padding: 55px 0;
+  text-align: center;
+}/*# sourceMappingURL=prueba.css.map */
