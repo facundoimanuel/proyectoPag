@@ -10,6 +10,7 @@ body{
 
 }
 
+
 $bgColor: rgb(12, 12, 12);
 $yellow: #FFED00;
 
@@ -23,6 +24,24 @@ $yellow: #FFED00;
         font-size: 12px;
         color: whitesmoke;
     }
+    h1, .aboutus{
+        color: $yellow;
+    }
+    
+}
+
+
+.navbar{
+    background-color: $bgColor;
+  
+    &__text{
+        font-weight: bolder;
+        color: $yellow;
+    }  
+    &__text:hover{
+        color: white;
+    }
+    
 
 }
 
@@ -81,6 +100,15 @@ main{
       }
 }
 
+h1{
+    text-align: center;
+}
+
+.aboutus{
+    font-family: 'Libre Barcode 39 Text', cursive;
+    text-align: center;
+}
+
 .style{
     display: flex;
     flex-flow: column;
@@ -91,20 +119,6 @@ main{
       }
   }
 
-
-.navbar{
-    background-color: black;
-  
-    &__text{
-        font-weight: bolder;
-        color: $yellow;
-    }  
-    &__text:hover{
-        color: white;
-    }
-    
-
-}
 
 .footer{
     background-color: black;
