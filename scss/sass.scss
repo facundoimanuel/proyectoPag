@@ -11,7 +11,7 @@ body{
 }
 
 
-$bgColor: rgb(12, 12, 12);
+$bgColor: rgb(17, 17, 17);
 $yellow: #FFED00;
 
 
@@ -40,6 +40,9 @@ $yellow: #FFED00;
     }  
     &__text:hover{
         color: white;
+    }
+    &__toggler{
+        color: $yellow;
     }
     
 
