@@ -1,19 +1,20 @@
 body, html {
   margin: 0;
-  height: 100vh; }
+  height: 100%; }
 
 body {
   display: grid;
   height: 100vh;
   font-family: 'Noto Serif', serif;
-  font-size: 1rem; }
+  font-size: 1rem;
+  background: url(../img/bg-img.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
 
 @media only screen and (max-width: 768px) {
-  body {
-    background-color: #111111; }
   p {
-    font-size: 12px;
-    color: whitesmoke; }
+    font-size: 14px;
+    color: #111111; }
   h1, .aboutus {
     color: #FFED00; } }
 
@@ -90,9 +91,9 @@ h1 {
     margin: 70px 0; }
 
 .footer {
-  background-color: black; }
+  background-color: #111111; }
   .footer__texto {
+    color: whitesmoke;
     font-size: 12px;
-    color: white;
     padding: 55px 0;
     text-align: center; }
