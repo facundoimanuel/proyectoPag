@@ -16,7 +16,9 @@ body {
     font-size: 14px;
     color: #111111; }
   h1, .aboutus {
-    color: #FFED00; } }
+    color: #FFED00; }
+  h2 {
+    color: whitesmoke; } }
 
 .navbar {
   background-color: #111111; }
@@ -94,6 +96,6 @@ h1 {
   background-color: #111111; }
   .footer__texto {
     color: whitesmoke;
-    font-size: 12px;
+    font-size: 14px;
     padding: 55px 0;
     text-align: center; }

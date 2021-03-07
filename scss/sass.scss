@@ -28,6 +28,9 @@ $white: rgb(245, 245, 245);
     h1, .aboutus{
         color: $yellow;
     }
+    h2{
+        color: $white;
+    }
 
     
 }
@@ -130,7 +133,7 @@ h1{
 
     &__texto{
         color: $white;
-        font-size: 12px;
+        font-size: 14px;
         padding: 55px 0;
         text-align: center;
     }
